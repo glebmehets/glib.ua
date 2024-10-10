@@ -1,0 +1,95 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(ип.jpg);
+    background-size: 100%;
+}
+.banan{
+    position: absolute;
+    right: 550px;
+    top: 150px;
+
+}
+.dolor2{
+    width: 100px;
+    position:absolute;
+    top: 110px;
+    left: 109px; 
+}
+.kliker {
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    position:absolute;
+    top: 145px;
+    left: 125px;
+    z-index: 100;
+    color: rgb(207, 18, 18);
+
+}
+.h1{
+    position: absolute;
+    top: 65px;
+    left: 350px;
+    animation: 1s anim;
+    animation-fill-mode: forwards;
+    /* display: none; */
+}
+.settings{
+    position: absolute;
+    width: 40px;
+    right: 110px;
+}
+.settings-block{
+    background: #000;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 100000000;
+    display:none;
+}
+.close{
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    width: 20px;
+}
+.almaz{
+    position: absolute;
+    width: 130px;
+    left: 600px; ;
+    top: 200px; ;
+}
+.audio{
+    position: absolute;
+    left: 550px;
+    top: 400px;
+}
+.autokliker{
+    position: absolute;
+    left: 625px;
+    top: 320px;
+    z-index: 100;
+}
+
+* {
+
+}
+
+@keyframes anim {
+    0% {
+        top: 65px;
+        opacity: 1;
+
+
+    }
+    100% {
+        top: 15px;
+        opacity: 0;
+
+    }
+}
